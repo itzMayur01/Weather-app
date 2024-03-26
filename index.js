@@ -10,7 +10,7 @@ const form = document.querySelector("form");
 let target = "shimla"
 const fetchData = async (target) => {
 
-    const url = `https://api.weatherapi.com/v1/current.json?key=655e0a7d91cb41fbaeb184427232208&q=${target}`;
+    const url = `http://api.weatherapi.com/v1/current.json?key=7f0f00cbac3b427b81d71524242603&q=${target}`;
 
     const response = await fetch(url);
     const data = await response.json();
